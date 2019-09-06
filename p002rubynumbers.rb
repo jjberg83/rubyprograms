@@ -24,3 +24,6 @@ puts 7.0.modulo 3
 puts nil || 2019
 @myName ||= 'Ola Nordmann'
 puts @myName
+puts 3.is_a?(Integer)
+puts "hello".is_a?(Integer)
+puts "hello".is_a?(String)
